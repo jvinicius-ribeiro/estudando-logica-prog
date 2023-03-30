@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica de Programação com JavaScript</title>
+</head>
+
+<body>
+    <h1>Lógica de Programação com JavaScript</h1>
+
+    <script>
+        //Outra forma de resolução, usando agora operadores lógicos -> &&.
+
+        var notaProva1 = parseInt(prompt("Digite aqui a nota da primeira prova"));
+        var notaProva2 = parseInt(prompt("Digite agora, a nota da sua segunda prova"));
+
+        var media = (notaProva1+notaProva2) / 2;
+
+        if (media >= 6 && notaProva1 > 0 && notaProva2 > 0) {
+            alert("Parabéns, você foi aprovado!");
+        } else {
+            alert("Que pena, você reprovou nessa matéria");
+        };
+
+    </script>
+</body>
+
+</html>
